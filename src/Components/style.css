@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    font-family: italic;    
+}
+
+.container{
+    height: 100vh;
+    text-align: center;
+    margin: 0px;
+    background: linear-gradient(to top, rgb(89, 91, 230) , rgb(212, 114, 114),rgb(226, 54, 42));
+
+}
+
+.header{
+    padding: 16px;
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: 3px 3px rgb(83, 117, 231);
+    
+}
+
+.inpt_form{
+    margin: 20px;
+    padding: 24px;
+    background-color: rgb(211, 245, 245);
+    width: 250px;
+    height: 10px;
+    border-radius: 30px;
+    font-size: 30px;
+}
+
+label{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button{
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    margin: 20px;
+    margin-top: 40px;
+    background-color: rgb(230, 52, 46);
+    width: 250px;
+    height: 65px;
+    border: 3px solid #1e3030;
+    border-radius: 30px;
+}
+.button:hover{
+    background-color: rgb(84, 134, 228);
+    cursor: pointer;
+}
+
+.box{
+    border-radius: 60px;
+    margin: auto;
+    margin-top: 48px;
+    border: 3px solid;
+    width: 95%;
+    background-color: rgb(83, 116, 224);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.inside{
+    margin: 20px;
+    padding: 2px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    font-size: 30px;
+    width: 38rem;
+    height: 3rem;
+    border: 2px solid black;
+    background-color: rgb(221, 35, 60);
+    border-radius: 5px;
+   
+}
+.butn{
+    margin-top: 2rem;
+    padding: 1rem;
+    color: rgb(5, 7, 7);
+    background-color: rgb(248, 70, 26);
+    position: absolute;
+    top: 500px;
+    left: 600px;
+    border: 3px solid;
+    border-radius: 35px;
+    width: 150px;
+    cursor: pointer;
+}
